@@ -48,7 +48,7 @@ return (
                 <option value="guest">guest</option>
             </select>
             { !isPending && <button>Add Note</button> }
-            { isPending && <button>Adding blog...</button> }
+            { isPending && <button>Adding Note...</button> }
 
         </form>
     </div>
